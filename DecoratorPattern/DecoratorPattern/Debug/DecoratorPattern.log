@@ -1,0 +1,10 @@
+﻿빌드 시작: 2015-05-15 오전 9:28:18
+     1>2 노드의 "D:\Dropbox\workspace\DecoratorPattern\DecoratorPattern\DecoratorPattern.vcxproj" 프로젝트(ClCompile 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Beverage.cpp
+         Beverage.cpp
+     1>"D:\Dropbox\workspace\DecoratorPattern\DecoratorPattern\DecoratorPattern.vcxproj" 프로젝트를 빌드했습니다(ClCompile 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.40

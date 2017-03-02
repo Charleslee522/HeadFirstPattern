@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Observer">
+      <UniqueIdentifier>{4832a79f-d0cd-4fb7-a375-d22910873210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Display">
+      <UniqueIdentifier>{b3e5de70-4170-4741-a055-b9eb456a346c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Subject">
+      <UniqueIdentifier>{787fbc90-fe24-478b-8d58-26d507957233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Subjet">
+      <UniqueIdentifier>{b278234b-7f31-49d2-a0af-5c80ed9caf64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Display">
+      <UniqueIdentifier>{8a168992-a571-4de0-9686-269c43b4acf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Observer">
+      <UniqueIdentifier>{a7a7745c-060f-434d-95d5-1de6d46d57a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\main">
+      <UniqueIdentifier>{eff49710-51fc-4f37-9109-2e06b41f4a15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThirdPartyDisplay.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StateKind.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>헤더 파일\Subjet</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherData.h">
+      <Filter>헤더 파일\Subjet</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayElement.h">
+      <Filter>헤더 파일\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentConditions.h">
+      <Filter>헤더 파일\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="ForecastDisplay.h">
+      <Filter>헤더 파일\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>헤더 파일\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsDisplay.h">
+      <Filter>헤더 파일\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Observer.cpp">
+      <Filter>소스 파일\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentConditions.cpp">
+      <Filter>소스 파일\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsDisplay.cpp">
+      <Filter>소스 파일\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="ForecastDisplay.cpp">
+      <Filter>소스 파일\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayElement.cpp">
+      <Filter>소스 파일\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherData.cpp">
+      <Filter>소스 파일\Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>소스 파일\Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPartyDisplay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
